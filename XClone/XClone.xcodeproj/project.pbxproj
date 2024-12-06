@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCDAB6F12D0353870030E26F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = DCDAB6F02D0353870030E26F /* FirebaseDatabase */; };
+		DCDAB6F32D0353DA0030E26F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DCDAB6F22D0353DA0030E26F /* FirebaseFirestore */; };
+		DCDAB6F52D0353DA0030E26F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DCDAB6F42D0353DA0030E26F /* FirebaseStorage */; };
+		DCDAB6F72D0354070030E26F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DCDAB6F62D0354070030E26F /* FirebaseAuth */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC83CAE32D02410F00599E2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC83CACA2D02410B00599E2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC83CAD12D02410B00599E2E;
+			remoteInfo = XClone;
+		};
+		DC83CAED2D02410F00599E2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC83CACA2D02410B00599E2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC83CAD12D02410B00599E2E;
+			remoteInfo = XClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC83CAD22D02410B00599E2E /* XClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC83CAE22D02410F00599E2E /* XCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC83CAEC2D02410F00599E2E /* XCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DC83CAD42D02410B00599E2E /* XClone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = XClone;
+			sourceTree = "<group>";
+		};
+		DC83CAE52D02410F00599E2E /* XCloneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = XCloneTests;
+			sourceTree = "<group>";
+		};
+		DC83CAEF2D02410F00599E2E /* XCloneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = XCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC83CACF2D02410B00599E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDAB6F12D0353870030E26F /* FirebaseDatabase in Frameworks */,
+				DCDAB6F32D0353DA0030E26F /* FirebaseFirestore in Frameworks */,
+				DCDAB6F52D0353DA0030E26F /* FirebaseStorage in Frameworks */,
+				DCDAB6F72D0354070030E26F /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC83CADF2D02410F00599E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC83CAE92D02410F00599E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC83CAC92D02410B00599E2E = {
+			isa = PBXGroup;
+			children = (
+				DC83CAE52D02410F00599E2E /* XCloneTests */,
+				DC83CAEF2D02410F00599E2E /* XCloneUITests */,
+				DC83CAD32D02410B00599E2E /* Products */,
+				DC83CAD42D02410B00599E2E /* XClone */,
+			);
+			sourceTree = "<group>";
+		};
+		DC83CAD32D02410B00599E2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC83CAD22D02410B00599E2E /* XClone.app */,
+				DC83CAE22D02410F00599E2E /* XCloneTests.xctest */,
+				DC83CAEC2D02410F00599E2E /* XCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC83CAD12D02410B00599E2E /* XClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC83CAF62D02410F00599E2E /* Build configuration list for PBXNativeTarget "XClone" */;
+			buildPhases = (
+				DC83CACE2D02410B00599E2E /* Sources */,
+				DC83CACF2D02410B00599E2E /* Frameworks */,
+				DC83CAD02D02410B00599E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DC83CAD42D02410B00599E2E /* XClone */,
+			);
+			name = XClone;
+			packageProductDependencies = (
+				DCDAB6F02D0353870030E26F /* FirebaseDatabase */,
+				DCDAB6F22D0353DA0030E26F /* FirebaseFirestore */,
+				DCDAB6F42D0353DA0030E26F /* FirebaseStorage */,
+				DCDAB6F62D0354070030E26F /* FirebaseAuth */,
+			);
+			productName = XClone;
+			productReference = DC83CAD22D02410B00599E2E /* XClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC83CAE12D02410F00599E2E /* XCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC83CAF92D02410F00599E2E /* Build configuration list for PBXNativeTarget "XCloneTests" */;
+			buildPhases = (
+				DC83CADE2D02410F00599E2E /* Sources */,
+				DC83CADF2D02410F00599E2E /* Frameworks */,
+				DC83CAE02D02410F00599E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC83CAE42D02410F00599E2E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DC83CAE52D02410F00599E2E /* XCloneTests */,
+			);
+			name = XCloneTests;
+			packageProductDependencies = (
+			);
+			productName = XCloneTests;
+			productReference = DC83CAE22D02410F00599E2E /* XCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC83CAEB2D02410F00599E2E /* XCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC83CAFC2D02410F00599E2E /* Build configuration list for PBXNativeTarget "XCloneUITests" */;
+			buildPhases = (
+				DC83CAE82D02410F00599E2E /* Sources */,
+				DC83CAE92D02410F00599E2E /* Frameworks */,
+				DC83CAEA2D02410F00599E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC83CAEE2D02410F00599E2E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DC83CAEF2D02410F00599E2E /* XCloneUITests */,
+			);
+			name = XCloneUITests;
+			packageProductDependencies = (
+			);
+			productName = XCloneUITests;
+			productReference = DC83CAEC2D02410F00599E2E /* XCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC83CACA2D02410B00599E2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					DC83CAD12D02410B00599E2E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					DC83CAE12D02410F00599E2E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = DC83CAD12D02410B00599E2E;
+					};
+					DC83CAEB2D02410F00599E2E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = DC83CAD12D02410B00599E2E;
+					};
+				};
+			};
+			buildConfigurationList = DC83CACD2D02410B00599E2E /* Build configuration list for PBXProject "XClone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC83CAC92D02410B00599E2E;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DCDAB6EF2D02AF630030E26F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DC83CAD32D02410B00599E2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC83CAD12D02410B00599E2E /* XClone */,
+				DC83CAE12D02410F00599E2E /* XCloneTests */,
+				DC83CAEB2D02410F00599E2E /* XCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC83CAD02D02410B00599E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC83CAE02D02410F00599E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC83CAEA2D02410F00599E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC83CACE2D02410B00599E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC83CADE2D02410F00599E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC83CAE82D02410F00599E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC83CAE42D02410F00599E2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC83CAD12D02410B00599E2E /* XClone */;
+			targetProxy = DC83CAE32D02410F00599E2E /* PBXContainerItemProxy */;
+		};
+		DC83CAEE2D02410F00599E2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC83CAD12D02410B00599E2E /* XClone */;
+			targetProxy = DC83CAED2D02410F00599E2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC83CAF42D02410F00599E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC83CAF52D02410F00599E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC83CAF72D02410F00599E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XClone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.XClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC83CAF82D02410F00599E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XClone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.XClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC83CAFA2D02410F00599E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.XCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XClone";
+			};
+			name = Debug;
+		};
+		DC83CAFB2D02410F00599E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.XCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XClone";
+			};
+			name = Release;
+		};
+		DC83CAFD2D02410F00599E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.XCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XClone;
+			};
+			name = Debug;
+		};
+		DC83CAFE2D02410F00599E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.XCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC83CACD2D02410B00599E2E /* Build configuration list for PBXProject "XClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC83CAF42D02410F00599E2E /* Debug */,
+				DC83CAF52D02410F00599E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC83CAF62D02410F00599E2E /* Build configuration list for PBXNativeTarget "XClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC83CAF72D02410F00599E2E /* Debug */,
+				DC83CAF82D02410F00599E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC83CAF92D02410F00599E2E /* Build configuration list for PBXNativeTarget "XCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC83CAFA2D02410F00599E2E /* Debug */,
+				DC83CAFB2D02410F00599E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC83CAFC2D02410F00599E2E /* Build configuration list for PBXNativeTarget "XCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC83CAFD2D02410F00599E2E /* Debug */,
+				DC83CAFE2D02410F00599E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DCDAB6EF2D02AF630030E26F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DCDAB6F02D0353870030E26F /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCDAB6EF2D02AF630030E26F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		DCDAB6F22D0353DA0030E26F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCDAB6EF2D02AF630030E26F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DCDAB6F42D0353DA0030E26F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCDAB6EF2D02AF630030E26F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		DCDAB6F62D0354070030E26F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCDAB6EF2D02AF630030E26F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DC83CACA2D02410B00599E2E /* Project object */;
+}
