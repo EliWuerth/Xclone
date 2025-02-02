@@ -34,8 +34,30 @@ To run the project locally, follow these steps:
 3. Select a simulator or a connected device.
    Click on the "Run" button in Xcode to build and run the application.
 
-###Usage
+### Usage
 - Launch the application on your iOS device or simulator.
 - Create a new task by tapping the "+" button.
 - Fill in the task details, set a reminder if needed, and categorize the task.
 - View your tasks in the main interface, where you can edit or delete them as necessary.
+
+### File Structure
+XClone/
+├── XClone/
+│   ├── Assets.xcassets/
+│   ├── Core/
+│   │   ├── Authentication/
+│   │   │   ├── ViewModels/
+│   │   │   └── Views/
+│   │   ├── Components/
+│   │   ├── Explore/
+│   │   ├── Feed/
+│   │   ├── Messages/
+│   │   ├── Notifications/
+│   │   └── Profile/
+│   ├── Preview Content/
+│   ├── XCloneApp.swift
+│   └── Info.plist
+├── XCloneTests/
+│   └── XCloneTests.swift
+└── XCloneUITests/
+    └── XCloneUITests.swift
